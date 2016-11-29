@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="712782c3-6e06-4a72-942e-4ce078e5f3a8" name="UMLUseCaseDiagram2" linkedPackageId="d508f9a6-a720-4195-81af-56a304ff3cd0" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a2ee7182-0a57-4056-9988-18c283f12014">
+      <profileInstance Id="9177a942-0e51-4f58-985d-99cfb4ef6683" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="55dfc631-ce36-4f47-909e-ecf7cc04793b">
+      <profileInstance Id="04786d07-17a4-44a8-9d31-4b1f5d81bb2c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="36ea1bed-10c8-4055-9d73-d9d0f1981c40" name="Chef Kok" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="99126302-1a60-4766-822b-e0e8449f69a6" />
+        <targetEnds>
+          <association Id="68d66721-129c-4767-9e0c-5ee2bc7dcb6f" isDerived="false" sourceEndRoleName="Chef Kok" targetEndRoleName="Køb ind" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="13b029a5-25e0-4ab4-8911-5ef7895f1b7a" LastKnownName="Køb ind" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a2ad6a4-3a1b-4015-881f-b52066f9084d" name="Chef Kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4106acb5-8039-49d1-b071-20e91a052da3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="afa94114-09af-46d3-9741-87068fefef33" name="Køb ind" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6dc0ef3c-2334-4f71-ad8e-b93501119d34" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c5a28cbc-7951-4292-9d89-3bfffdb54810" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ab6d9b82-6745-4aba-9254-66365d4ded70" name="Kok" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41f75e67-b159-4cd4-9ab7-4621ebf1e9f7" />
+        <targetEnds>
+          <association Id="2cd86591-ce0f-48a6-bea5-aa8cc04b06ca" isDerived="false" sourceEndRoleName="Kok" targetEndRoleName="Lav mad" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eaf16e10-62a3-4355-93d6-47b3ef434552" LastKnownName="Lav mad" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cd9b1938-9625-45d7-91c8-13c8494ed42d" name="Kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0b10e7d3-d3d2-41d0-91e3-743c8dc6eeec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="92a460a3-485b-464b-9fcc-7398b2827b30" name="Lav mad" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="72a495dc-ee9d-4d25-abfd-2ea3c617bd05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6ede485e-3ff1-4b6f-bd06-b8d9e52a70ca" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f1d98821-4fab-4aa4-a561-1cdfa82deb34" name="Oprydder" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af4de316-4ca0-43c4-90e5-580a119671f6" />
+        <targetEnds>
+          <association Id="9b02a170-87a7-4087-a1ce-938fbdf06e4a" isDerived="false" sourceEndRoleName="Oprydder" targetEndRoleName="Ryd op" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abb1ff9a-2dd9-4839-94f8-34ebda3ee2df" LastKnownName="Ryd op" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="56a15af2-8629-4248-a57e-bce33828aeeb" name="Oprydder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e402bcb7-55fb-432c-9484-8133f2150702" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b51408d0-a86d-46be-9497-5f0951b351ab" name="Ryd op" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2cb2533-5217-4263-acce-5a02a2e3ddae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="57443a9b-7188-42a0-b185-c53f24756cd5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f101c25c-526e-4044-822d-f6c2c2d914b8" name="Uansvarlig" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="523a1af7-c26e-4493-aff8-4e143713298a" />
+        <targetEnds>
+          <association Id="928f2364-82e1-4e99-9842-7036f527938a" isDerived="false" sourceEndRoleName="Uansvarlig" targetEndRoleName="Bestil" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="150ad34e-1cb9-4b04-952c-78678f0bd63d" LastKnownName="Bestil" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f279c9c3-ef26-4ad7-87f3-44f3fedd8a9f" name="Uansvarlig" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="23e9f577-4895-46f6-b728-da4248467e00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3933bc2f-3f4f-421e-bf9b-225d2b1420fc" name="Bestil" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7a2f884b-9fde-4ab7-9324-d0a655f48afb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f65ec0f3-a57d-4e2d-947e-68936e207988" />
+          </association>
+          <association Id="78dbe719-dd0b-4a2f-9b9f-a754abb498e1" isDerived="false" sourceEndRoleName="Uansvarlig" targetEndRoleName="Spis" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7a99ac52-76fc-499b-a8e7-67cff9c27022" LastKnownName="Spis" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66c528ab-f037-4adf-8514-0eafa9bd3a44" name="Uansvarlig" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="63c577c3-df64-4517-bce4-21eeda2a23f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="427e247e-9f96-42b3-8dac-9f8409e3e571" name="Spis" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b77e6a1b-cc7a-43ae-b4d2-b825f089fcbc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be4944db-b7ea-4426-b888-92eca6a5a723" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="13b029a5-25e0-4ab4-8911-5ef7895f1b7a" name="Køb ind" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="edd3d77b-3bf0-4745-8fe4-82110824b2b7" />
+        <targetEnds>
+          <association Id="7e5907a5-b1eb-4794-aff0-9eaeff08cdbb" isDerived="false" sourceEndRoleName="Køb ind" targetEndRoleName="Gem til prisberegning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2a0326ce-ca54-40f8-96f0-4c0b0cfae672" LastKnownName="Gem til prisberegning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42d7781b-d1a2-4edd-8535-24382171f48e" name="Køb ind" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c91827b-19e2-4385-8d65-0f9da96d6c06" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="83592cf8-2994-4fcd-a8bc-5d6798c20229" name="Gem til prisberegning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="48614cac-c0d2-407b-b53b-b0fe30ad74a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6d16e964-3254-4db5-a445-e2f6685a3675" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="eaf16e10-62a3-4355-93d6-47b3ef434552" name="Lav mad" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5469fe8c-ca6f-418e-a2fb-e3d95a158fb7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="abb1ff9a-2dd9-4839-94f8-34ebda3ee2df" name="Ryd op" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac7918c5-3fc4-46cc-a098-a9b3234b2f19" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="150ad34e-1cb9-4b04-952c-78678f0bd63d" name="Bestil" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a23e39bc-a5ae-4ad1-a309-6a01ac8fc9f3" />
+        <targetEnds>
+          <association Id="823b1c33-5381-406c-8a0d-972da4753772" isDerived="false" sourceEndRoleName="Bestil" targetEndRoleName="Gem til prisberegning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2a0326ce-ca54-40f8-96f0-4c0b0cfae672" LastKnownName="Gem til prisberegning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9ad3f06-521d-402a-98ad-c953110cb09b" name="Bestil" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4723f892-69e9-4673-99a8-9e5863738294" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b45875af-34ae-46a8-b03f-ace278de24b7" name="Gem til prisberegning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1d949c2e-6c2f-43e1-acfb-d3611b315c39" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="71345dd9-bd9e-4f3a-884a-3ef09e03ee43" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7a99ac52-76fc-499b-a8e7-67cff9c27022" name="Spis" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="764aff8a-43f8-4ab8-b0b3-586d9180aa4d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ebc3e0c2-b252-4faf-a40c-8687a3fe9550" name="&lt;Beregningsfil&gt;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58c587b6-c037-488d-94de-1fe95df86b64" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2a0326ce-ca54-40f8-96f0-4c0b0cfae672" name="Gem til prisberegning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58a0fc7b-ceae-467b-b028-2baa014b5536" />
+        <targetEnds>
+          <association Id="d9d43501-cbd2-4406-998c-52ef1409d38c" isDerived="false" sourceEndRoleName="Gem til prisberegning" targetEndRoleName="&lt;Beregningsfil&gt;" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="ebc3e0c2-b252-4faf-a40c-8687a3fe9550" LastKnownName="&lt;Beregningsfil&gt;" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="519e6973-79c3-425b-a3c2-7f4973276080" name="Gem til prisberegning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7fa570bf-7f51-4ecd-8632-0725d13600ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fd9927a4-7506-411f-8885-61ada5c41946" name="&lt;Beregningsfil&gt;" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7221e3c6-9660-4b81-ab88-960f60b97266" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="af5793c6-1c36-4d2b-9dd1-251749caaa2b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d508f9a6-a720-4195-81af-56a304ff3cd0" name="Faellesspisning Use Case 1">
+    <elementDefinition Id="552aa056-a1cb-4d4e-bbfb-7f4133df2390" />
+  </package>
+</useCaseModelRoot>

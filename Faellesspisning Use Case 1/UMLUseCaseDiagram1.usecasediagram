@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="eb88beae-cfaa-4021-86ab-bc3e28942302" name="UMLUseCaseDiagram1" linkedPackageId="25bb531c-b631-4740-a4f0-58e9fe4e3c9c" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="da6b937a-0951-42ae-aa08-546762a6e468">
+      <profileInstance Id="4b046661-aaf1-4513-bcdd-eef2487d79e1" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d299fb32-8c19-409e-b6e3-60f16ecbc3cb">
+      <profileInstance Id="1d93ec68-3b19-4807-8120-8e66f9ff4f20" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="32e679e7-d7d1-435f-a31e-2408a0eddd1b" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0238d21-2acb-448a-b2e5-ee874698b9c4" />
+        <targetEnds>
+          <association Id="e81e7e1e-30b2-4e1b-81bc-bea172eb1604" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Ansvarsløs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0cd6fd7e-27c7-4bba-a026-c62c1ea365d9" LastKnownName="Ansvarsløs" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0dfedfb8-e321-408b-ab3f-04ac0a03688e" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="14753475-4dfe-4967-8eee-a8bc27ba0cfa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87995c63-8f78-44b1-b07b-f2fca0e36268" name="Ansvarsløs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f1abd901-a75d-40e6-90d1-dd07a918f3d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fea54c44-ff08-485d-8865-6ee5da5994d8" />
+          </association>
+          <association Id="305f6c32-3e20-480c-8a06-aeb642af0e0b" isDerived="false" sourceEndRoleName="User" targetEndRoleName="kok" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1b942106-8508-48a4-be9d-9dad52c035a4" LastKnownName="kok" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fb7fcaa7-f436-4667-8ebd-c26cf070c457" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f7aa0772-2b6a-4e09-a62c-1cda3360cf19" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="16200b10-82d0-49d1-9653-9392d990598a" name="kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d5ab3624-9aaf-44e1-bb82-8ad7f7a7fa16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fa439a88-022a-44e3-a20e-94cbb030476c" />
+          </association>
+          <association Id="4c860cf8-7bc5-456a-ba35-66091e072a98" isDerived="false" sourceEndRoleName="User" targetEndRoleName="oprydder" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3963ef99-2f78-47aa-8613-b8880f654acf" LastKnownName="oprydder" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0121c413-ec53-4b8a-b8b1-e07e602161e4" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ac80c50d-1f3e-470f-8640-fc02cb91cefc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="509549de-5213-403a-bac8-c6549520f43a" name="oprydder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="176231f0-bdbc-4438-9a04-3b7598aea049" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bb359ff1-ff47-44aa-be38-552bd3622e9f" />
+          </association>
+          <association Id="8b3a3ecd-64db-4ae7-8fe0-2c1c71d64648" isDerived="false" sourceEndRoleName="User" targetEndRoleName="udbetale" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5a287f08-e41e-49b4-ae52-e205bb9ab5c0" LastKnownName="udbetale" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca27c554-f947-407f-b1d6-6bd60c3a731f" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e3d8dca2-888c-470a-8d30-8a6fea221d22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="075fe8b1-cb4d-4c6e-9684-389484e3e319" name="udbetale" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0b734ef7-73f5-48d4-a02e-74c6a0c6b761" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="37cb55f7-336f-48c7-9005-c1f5937cd112" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0cd6fd7e-27c7-4bba-a026-c62c1ea365d9" name="Ansvarsløs" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d88e482-792c-4cbf-93d8-12f225267ead" />
+        <targetEnds>
+          <association Id="454aef07-9a1e-48bc-846f-89d6f10a13cd" isDerived="false" sourceEndRoleName="Ansvarsløs" targetEndRoleName="spisning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="26ca5ae1-28dc-4d63-875f-56296e279020" LastKnownName="spisning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="475a43e0-8d38-4a68-acff-c8124d28a378" name="Ansvarsløs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="050326ae-23bc-4701-ba9b-47b17c04d118" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50656b87-e4bc-4704-a2a2-5ade4dcbde30" name="spisning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="50134e86-e0ce-4036-b7d3-16ce2402bd64" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2e87e15e-7014-4fa9-a141-c3f3091eae3b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1b942106-8508-48a4-be9d-9dad52c035a4" name="kok" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="143d66d0-fea2-4fd4-8d44-6d966b66169f" />
+        <targetEnds>
+          <association Id="0858b9ff-0207-48b3-aac8-5611dc15441a" isDerived="false" sourceEndRoleName="kok" targetEndRoleName="madlavning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5e8885ac-42ea-4f47-9c48-a1f5c21d7c7b" LastKnownName="madlavning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="25bfe22f-5b93-4b23-a5f2-b6a009d3a36a" name="kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cbbb32cc-f6df-426e-be18-6df3b42c2e5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb48ac73-6043-4b78-b7cf-7b7418c49683" name="madlavning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1673b27a-9da6-483a-8714-397ea30400d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7d6fe787-b87d-4a64-8023-8f76605fcde6" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3963ef99-2f78-47aa-8613-b8880f654acf" name="oprydder" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="523e1d51-f43c-45dc-8bf9-1d4dae840942" />
+        <targetEnds>
+          <association Id="fde9908a-f1a3-45e8-b6cd-e26d7d38b4aa" isDerived="false" sourceEndRoleName="oprydder" targetEndRoleName="spisning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="26ca5ae1-28dc-4d63-875f-56296e279020" LastKnownName="spisning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c287e0b8-27f2-486a-8f1b-beb6aae21bfa" name="oprydder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c7f93c07-25fa-4b9c-82b3-e95afeb6221c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65c7504d-b2f2-492b-962a-3542282c2140" name="spisning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="96e64428-18d9-43df-ba2a-40d661a5dfd8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aa4ddc4d-1569-4f30-a276-2a1aa503543b" />
+          </association>
+          <association Id="7170b47d-d086-4df9-819c-f5a8f39def1b" isDerived="false" sourceEndRoleName="oprydder" targetEndRoleName="oprydning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="72e397d2-2156-4a7d-ba2c-2bdb0ec4673e" LastKnownName="oprydning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ce6c72f-7391-43b2-b725-af433d1527b3" name="oprydder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f05cc538-6e6c-432c-a195-466da271bd1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c31bc140-afc4-4098-9ef3-d12c66f10eb7" name="oprydning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26914df7-f6fb-4ab9-8be2-601f81bb0c50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="36a9b89d-37b9-4352-8093-4ffb9c8ca085" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5e8885ac-42ea-4f47-9c48-a1f5c21d7c7b" name="madlavning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="19f4e57f-88b4-4681-9033-e57e6b2ee498" />
+        <targetEnds>
+          <association Id="e617ba0b-0809-45e1-b64d-ce203d62baa5" isDerived="false" sourceEndRoleName="madlavning" targetEndRoleName="spisning" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="26ca5ae1-28dc-4d63-875f-56296e279020" LastKnownName="spisning" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed2503c4-786d-4e3b-967e-6f30abf13948" name="madlavning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e42e234e-7562-4445-bd8f-83e055a3a308" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9803ee22-51aa-4218-b5f2-607f23882829" name="spisning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ad37e225-b7c1-4c5b-89d3-a1027744b8d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b5c5e84e-39d8-45af-9dc8-53e901bd2a22" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="26ca5ae1-28dc-4d63-875f-56296e279020" name="spisning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="29a077a3-eb8d-41fe-a4bd-ca17012265a8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="72e397d2-2156-4a7d-ba2c-2bdb0ec4673e" name="oprydning" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="873bd3fa-a3a6-4d81-b2c6-8a34c4567583" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5a287f08-e41e-49b4-ae52-e205bb9ab5c0" name="udbetale" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="248f092b-8049-4b7e-877c-7498666bc26b" />
+        <targetEnds>
+          <association Id="174144bc-aa9b-41d6-ab1f-2a8bfe842a5b" isDerived="false" sourceEndRoleName="udbetale" targetEndRoleName="Husejer" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="9111b232-6adf-40c1-87af-0b531ceac4c9" LastKnownName="chefkok" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6902123d-f606-4ab2-9f9a-3b134e923a60" name="udbetale" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e13ba794-e5a5-445d-974f-0fd9ee21b95c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f5680b2-8a4e-44e0-8b17-0ed0487e4ac3" name="Husejer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dceb2d69-e843-471c-9efa-bd8a8990a148" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="845ac82d-f71f-49ee-aa41-7f7296f349bd" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="9111b232-6adf-40c1-87af-0b531ceac4c9" name="chefkok" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4ce47c78-756e-44c5-ad00-f5967b322c8a" />
+        <targetEnds>
+          <association Id="4e2a90a9-0785-443b-a02c-018dadd92b24" isDerived="false" sourceEndRoleName="chefkok" targetEndRoleName="kok" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1b942106-8508-48a4-be9d-9dad52c035a4" LastKnownName="kok" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76702be3-d5c7-4ac1-b341-2b1d94253382" name="chefkok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9d5802f7-1cf8-4795-846b-90eb7bdb05dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="224daaa1-3578-4bb2-b012-00b42b2761a9" name="kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0b2d35e9-4ecc-4f6b-9197-186dd517c49c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ba613121-3ffd-433e-9c51-7892cde05983" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="25bb531c-b631-4740-a4f0-58e9fe4e3c9c" name="Faellesspisning Use Case 1">
+    <elementDefinition Id="552aa056-a1cb-4d4e-bbfb-7f4133df2390" />
+  </package>
+</useCaseModelRoot>
